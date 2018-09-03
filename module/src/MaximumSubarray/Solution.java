@@ -10,7 +10,7 @@ package MaximumSubarray;
 
 public class Solution {
     public int maxSubArray(int[] nums) {
-        /*
+        /*双指针方法，但是超时了
         int max = nums[0];
         for(int i=1;i<=nums.length;i++){//subarray长度
             for(int j=0;j<=nums.length-i;j++){//截取数组开始位置
@@ -37,8 +37,4 @@ public class Solution {
     }
 
 
-    public static void main(String[] args) {
-        int[] test = {-1};
-        System.out.println(new Solution().maxSubArray(test));
-    }
 }
