@@ -2,6 +2,10 @@ package ValidateBinarySearchTree;
 
 import util.TreeNode;
 
+/**
+ *
+ */
+
 public class Solution {
     public boolean isValidBST(TreeNode root) {
         boolean flag = true;
