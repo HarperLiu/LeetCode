@@ -3,6 +3,11 @@ package GrayCode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by Harper Liu on 13/12/2018
+ * 思路：如果两个数的二进制只有一位不同，那么他们的差一定是2^x,0<=x<=n
+ */
+
 public class Solution {
     public List<Integer> grayCode(int n) {
         ArrayList<Integer> nums = new ArrayList<>();
